@@ -1,0 +1,30 @@
+{
+  "name": "harray",
+  "version": "1.0.0",
+  "description": "A collection of lamda functions intended to be used with []'s .map(), .filter(), .reduce(), etc functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/harray.git"
+  },
+  "keywords": [
+    "Array",
+    "map",
+    "reduce",
+    "filter"
+  ],
+  "author": "Jared Anderson <jared@tuxsudo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/harray/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/harray#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
